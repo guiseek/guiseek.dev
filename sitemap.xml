@@ -2,23 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://guiseek.dev/guiseek.dev/posts/firstpost/</loc>
-    <lastmod>01-05-2018</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://guiseek.dev/guiseek.dev/posts/secondpost/</loc>
-    <lastmod>04-07-2018</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://guiseek.dev/guiseek.dev/posts/thirdpost/</loc>
-    <lastmod>24-08-2018</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://guiseek.dev/guiseek.dev/posts/fourthpost/</loc>
-    <lastmod>30-09-2018</lastmod>
+    <loc>https://guiseek.dev/guiseek.dev/posts/arrow-lambda-notssupported-in-static-function/</loc>
+    <lastmod>31-10-2020</lastmod>
   </url>
   
   <url>
@@ -52,22 +37,22 @@
   </url>
   
   <url>
+    <loc>https://guiseek.dev/guiseek.dev/tags/angular/</loc>
+    <lastmod>31-10-2020</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://guiseek.dev/guiseek.dev/tags/build/</loc>
+    <lastmod>31-10-2020</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://guiseek.dev/guiseek.dev/tags/error/</loc>
+    <lastmod>31-10-2020</lastmod>
+  </url>
+  
+  <url>
     <loc>https://guiseek.dev/guiseek.dev/tags/cli/</loc>
-    <lastmod>31-10-2020</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://guiseek.dev/guiseek.dev/tags/another-tag/</loc>
-    <lastmod>31-10-2020</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://guiseek.dev/guiseek.dev/tags/second-tag/</loc>
-    <lastmod>31-10-2020</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://guiseek.dev/guiseek.dev/tags/number-2/</loc>
     <lastmod>31-10-2020</lastmod>
   </url>
 </urlset>

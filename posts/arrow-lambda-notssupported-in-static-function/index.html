@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow lambda not supported in static function.</title>
+    <meta name="description" content="Angular build error">
+    <link rel="stylesheet" href="/guiseek.dev/css/index.css">
+    <link rel="stylesheet" href="/guiseek.dev/css/cards.css">
+    <link rel="stylesheet" href="/guiseek.dev/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/guiseek.dev/feed/feed.xml" type="application/atom+xml" title="guiseek.dev">
+    <link rel="alternate" href="/guiseek.dev/feed/feed.json" type="application/json" title="guiseek.dev">
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/guiseek.dev/">guiseek.dev</a></h1>
+      <ul class="nav">
+        <li class="nav-item"><a href="/guiseek.dev/">Home</a></li>
+        <li class="nav-item"><a href="/guiseek.dev/posts/">Archive</a></li>
+        <li class="nav-item"><a href="/guiseek.dev/about/">About Me</a></li>
+      </ul>
+    </header>
+
+    <main class="tmpl-post">
+
+      <!-- Delete this message -->
+      
+      <!-- Stop deleting -->
+
+      <h1>Arrow lambda not supported in static function.</h1>
+
+<p>Na verdade, isso é um erro do compilador Angular e não é um bug.</p>
+<p>As funções lambda não são suportadas em métodos estáticos pelo compiler.</p>
+<h2 id="solution">Solution <a class="direct-link" href="#solution">#</a></h2>
+<p>Dito isso, não entre em pânico, há uma maneira de superar isso usando o sinalizador @dynamic que instruirá o compilador a não emitir um erro.</p>
+<pre class="language-ts"><code class="language-ts"><span class="token comment">/**<br><mark class="highlight-line highlight-line-active"> * @dynamic</mark><br> */</span><br><span class="highlight-line"><span class="token keyword">export</span> <span class="token keyword">class</span> <span class="token class-name">FireAuthGuard</span> <span class="token punctuation">{</span></span><br><span class="highlight-line"></span><br><mark class="highlight-line highlight-line-active">  <span class="token keyword">static</span> <span class="token function-variable function">allowOnly</span> <span class="token operator">=</span> <span class="token punctuation">(</span>role<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token function">hasCustomClaim</span><span class="token punctuation">(</span>role<span class="token punctuation">)</span></mark><br><span class="highlight-line"></span><br><span class="highlight-line"><span class="token punctuation">}</span></span></code></pre>
+
+
+<hr>
+<ul><li>Next: <a href="/guiseek.dev/posts/cartao-de-visita/">Cartão de visita no terminal</a></li>
+</ul>
+
+    </main>
+
+    <footer></footer>
+
+    <!-- Current page: /guiseek.dev/posts/arrow-lambda-notssupported-in-static-function/ -->
+  </body>
+</html>
