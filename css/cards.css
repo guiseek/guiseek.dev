@@ -22,8 +22,9 @@
 .card {
   display: flex;
   position: relative;
+  justify-content: space-between;
   flex-direction: column;
-  height: 260px;
+  height: 300px;
   width: 400px;
   min-width: 250px;
   padding: 1.5rem;
@@ -92,7 +93,7 @@
 }
 
 .card-header {
-  margin-bottom: auto;
+  margin-bottom: 3rem auto;
 }
 
 .card-header time {
@@ -109,7 +110,7 @@
 }
 
 .card-header h2:hover {
-  background: linear-gradient(90deg,#ff8a00,#e52e71);
+  background: linear-gradient(90deg,var(--blue),var(--pink));
   text-shadow: none;
   background-clip: text;
   -webkit-background-clip: text;
@@ -138,7 +139,7 @@
 }
 
 .tags a:hover {
-  background: linear-gradient(90deg,#ff8a00,#e52e71);
+  background: linear-gradient(90deg,var(--blue),var(--pink));
   text-shadow: none;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
