@@ -1,0 +1,20 @@
+{
+  "title": "guiseek.dev",
+  "url": "https://guiseek.dev/",
+  "description": "Guilherme Siquinelli, engenheiro front-end, tech lead, professor e degustador da boa tecnologia",
+  "feed": {
+    "subtitle": "Guilherme Siquinelli, engenheiro front-end, tech lead, professor e degustador da boa tecnologia",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://guiseek.dev/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://guiseek.dev/feed/feed.json"
+  },
+  "author": {
+    "name": "Guilherme Siquinelli",
+    "email": "email@guiseek.dev",
+    "url": "https://guiseek.dev/about-me/"
+  }
+}
